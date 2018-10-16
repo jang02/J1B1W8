@@ -26,7 +26,7 @@ function order() {
 				totalwijn += insert;
 			}
 			else if (order == 'snacks'){	//snacks optie
-			if ((bitterballen = prompt('Hoeveel bitterballen wilt u?\n Kies uit 8 of 16.')) == 8){
+			if ((bitterballen = prompt('Hoeveel bitterballen wilt u?\nKies uit 8 of 16.')) == 8){
 				var balschalen8 = prompt('Hoeveel schalen van ' + bitterballen + ' bitterballen wilt u bestellen?')
 			}
 			else if (bitterballen == 16){
