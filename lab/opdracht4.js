@@ -10,6 +10,7 @@ var num2 = 1;
 	amount--;
 	num2++;
 	num1 = 1;
+	console.log('Table Finished')
 }
 }
 tables(prompt('How many tables do you want to calculate?'));
